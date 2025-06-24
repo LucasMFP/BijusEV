@@ -1,44 +1,109 @@
-.body{
-    background-image: url('Imagens/fundo-de-papel-de-parede-colorido-desfocado-vivido.jpg');
+body{
+    background-image: url('backgroundimage.jpg');
+    background-size: cover;/* Faz a imagem cobrir toda a tela */
+    background-repeat: no-repeat;/* Evita repetição da imagem */
+    background-position: center;/* Centraliza a imagem */
     display: flex;
-    height: 100vh;
-}
-
-.div container-1{
-    display: flex;
-    justify-content: center;
     align-items: center;
-    text-align: center;
     flex-direction: column;
     height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    z-index: 0;
+}
+
+.backgroundolho{
+    background-image: url('imageolho.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    width: 500px;
+    height: 500px;
+    position: fixed;
+    top: 35%;
+    z-index: 1;
+}
+
+.container1{
+    display:flex;
+    position: fixed;
+    margin-top: 80px;
+    z-index: 3;
+    flex-direction: column;
+    font-size: medium;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: aliceblue;
-}
-
-.h1{
-    margin-top: 30%;
-    font-size: 20px;
-    text-shadow: 10px 10px 60px;
-    border: 2px;
-    border-color: aqua;
-}
-
-.h2{
-    margin-top: 30%;
-    font-size: 15px;
-    border-color: aqua; 
+    color: rgb(13, 71, 161)
+    
 }
 
 .bottom{
-    display: flex;
+    display:flex;
+    position: fixed;
+    margin-top: 487px;
+    text-align: center;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    height: 100vh;
+    flex-direction: column;
+    display: flex;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: aliceblue;
-    border-color: aqua;
-    padding: 20px;
+    font-size: medium;
+    z-index: 2;
 }
 
-    
+.bottom1{
+    margin-left: 60px;
+    margin-bottom: 20px;
+    background-color: rgb(0, 136, 255);
+    border-radius: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 170px;
+    height: 20px;
+    text-decoration: none;
+    color:aliceblue;
+    box-shadow: 7px 7px 5px;
+}
+
+.bottom2{
+    margin-right: 60px;
+    margin-bottom: 20px;
+    background-color: rgb(0, 136, 255);
+    border-radius: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 170px;
+    height: 20px;
+    text-decoration: none;
+    color:aliceblue;
+    box-shadow:  -7px 7px 5px;
+}
+
+.bottom3{
+    margin-left: 60px;
+    margin-bottom: 20px;
+    background-color: rgb(0, 136, 255);
+    border-radius: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 170px;
+    height: 20px;
+    text-decoration: none;
+    color:aliceblue;
+    box-shadow: 7px 7px 5px;
+}
+
+.bottom4{
+    margin-right: 60px;
+    margin-bottom: 20px;
+    background-color: rgb(0, 136, 255);
+    border-radius: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 170px;
+    height: 20px;
+    text-decoration: none;
+    color:aliceblue;
+    box-shadow:  -7px 7px 5px;
+}
