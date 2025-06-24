@@ -19,47 +19,44 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
-    width: 500px;
-    height: 500px;
     position: fixed;
-    top: 35%;
+    padding: 25vh;
+    margin-top: 30vh;
     z-index: 1;
 }
 
 .container1{
     display:flex;
-    position: fixed;
-    margin-top: 80px;
+    margin-top: 10vh;
     z-index: 3;
     flex-direction: column;
-    font-size: medium;
+    font-size: 60%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(13, 71, 161)
-    
 }
 
 .bottom{
     display:flex;
     position: fixed;
-    margin-top: 487px;
+    margin-top: 40vh;
     text-align: center;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     display: flex;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: medium;
+    font-size: 85%;
     z-index: 2;
 }
 
 .bottom1{
-    margin-left: 60px;
-    margin-bottom: 20px;
+    margin-left: 55px;
+    margin-bottom: 15px;
     background-color: rgb(0, 136, 255);
     border-radius: 25px;
     padding-top: 10px;
-    padding-bottom: 10px;
-    width: 170px;
+    padding-bottom: 5px;
+    width: 125px;
     height: 20px;
     text-decoration: none;
     color:aliceblue;
@@ -67,13 +64,13 @@ body{
 }
 
 .bottom2{
-    margin-right: 60px;
+    margin-right: 55px;
     margin-bottom: 20px;
     background-color: rgb(0, 136, 255);
     border-radius: 25px;
     padding-top: 10px;
-    padding-bottom: 10px;
-    width: 170px;
+    padding-bottom: 5px;
+    width: 125px;
     height: 20px;
     text-decoration: none;
     color:aliceblue;
@@ -81,13 +78,13 @@ body{
 }
 
 .bottom3{
-    margin-left: 60px;
-    margin-bottom: 20px;
+    margin-left: 55px;
+    margin-bottom: 15px;
     background-color: rgb(0, 136, 255);
     border-radius: 25px;
     padding-top: 10px;
-    padding-bottom: 10px;
-    width: 170px;
+    padding-bottom: 5px;
+    width: 125px;
     height: 20px;
     text-decoration: none;
     color:aliceblue;
@@ -95,15 +92,110 @@ body{
 }
 
 .bottom4{
-    margin-right: 60px;
+    margin-right: 55px;
     margin-bottom: 20px;
     background-color: rgb(0, 136, 255);
     border-radius: 25px;
     padding-top: 10px;
-    padding-bottom: 10px;
-    width: 170px;
+    padding-bottom: 5px;
+    width: 125px;
     height: 20px;
     text-decoration: none;
     color:aliceblue;
     box-shadow:  -7px 7px 5px;
+}
+
+.bottomimage{
+    display:flex;
+    position: fixed;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 85%;
+    z-index: 2;
+}
+
+.bottomimage1{
+    margin-right: 135px;
+    margin-bottom: 10px;
+    background-color: rgb(0, 136, 255);
+    border-radius: 25px;
+    width: 40px;
+    height: 40px;
+    margin-top: 40vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color:aliceblue;
+    box-shadow: 7px 7px 5px;
+}
+
+.bottomimage1 img{
+    width: 40px;
+    height: 40px;
+    color: green;
+}
+
+.bottomimage2{
+    margin-left: 135px;
+    margin-bottom: 10px;
+    background-color: rgb(0, 136, 255);
+    border-radius: 25px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color:aliceblue;
+    box-shadow:  -7px 7px 5px;
+}
+
+.bottomimage2 img{
+    width: 40px;
+    height: 40px;
+}
+
+.bottomimage3{
+    margin-right: 135px;
+    margin-bottom: 10px;
+    background-color: rgb(0, 136, 255);
+    border-radius: 25px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color:aliceblue;
+    box-shadow: 7px 7px 5px;
+}
+
+.bottomimage3 img{
+    width: 40px;
+    height: 40px;
+}
+
+.bottomimage4{
+    margin-left: 135px;
+    margin-bottom: 10px;
+    background-color: rgb(0, 136, 255);
+    border-radius: 25px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color:aliceblue;
+    box-shadow:  -7px 7px 5px;
+}
+
+.bottomimage4 img{
+    width: 40px;
+    height: 40px;
 }
