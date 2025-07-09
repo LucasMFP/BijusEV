@@ -1,2 +1,2 @@
 # Directional-page
-Páginas de direcionamento para outras plataformas
+Página de direcionamento
