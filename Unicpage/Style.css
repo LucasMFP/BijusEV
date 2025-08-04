@@ -1,5 +1,5 @@
 body{
-    background-image: url('backgroundimage.jpg');
+    background-image: url('images/fundoolho.png');
     background-size: cover;/* Faz a imagem cobrir toda a tela */
     background-repeat: no-repeat;/* Evita repetição da imagem */
     background-position: center;/* Centraliza a imagem */
@@ -10,26 +10,24 @@ body{
     width: 100vw;
     margin: 0;
     padding: 0;
-    z-index: 0;
+    z-index: 1;
     overflow: hidden;
 }
 
 .backgroundolho{
-    background-image: url('imageolho.png');
+    background-image: url('images/imageolho.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
-    position: absolute;
     padding: 24vh;
-    margin-top: 32vh;
-    z-index: 1;
+    margin-top: 28vh;
     animation: pulse 2s infinite ease-in-out;
 }
 
 @keyframes pulse{
     0%{
-        transform: scale (1)
+        transform: scale(1)
     }
     
     50%{
@@ -39,26 +37,27 @@ body{
 
 .container1{
     display:flex;
-    margin-top: 10vh;
     z-index: 3;
+    text-align: center;
+    margin-top: 10vh;
     flex-direction: column;
+    position: absolute;
     font-size: 60%;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(13, 71, 161)
+    color:blue;
+    text-shadow: 3px 3px 10px rgba(0,0,0,0.5);;
 }
 
 .bottom{
     display:flex;
-    position: fixed;
+    position: absolute;
     margin-top: 40vh;
     text-align: center;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    display: flex;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 85%;
-    z-index: 2;
 }
 
 .bottom1{
@@ -72,7 +71,7 @@ body{
     height: 20px;
     text-decoration: none;
     color:aliceblue;
-    box-shadow: 7px 7px 5px;
+    box-shadow: 5px 5px 7px;
 }
 
 .bottom2{
@@ -86,7 +85,7 @@ body{
     height: 20px;
     text-decoration: none;
     color:aliceblue;
-    box-shadow:  -7px 7px 5px;
+    box-shadow:   -5px 5px 7px;
 }
 
 .bottom3{
@@ -100,7 +99,7 @@ body{
     height: 20px;
     text-decoration: none;
     color:aliceblue;
-    box-shadow: 7px 7px 5px;
+    box-shadow: 5px 5px 7px;
 }
 
 .bottom4{
@@ -114,7 +113,7 @@ body{
     height: 20px;
     text-decoration: none;
     color:aliceblue;
-    box-shadow:  -7px 7px 5px;
+    box-shadow:  -5px 5px 7px;
 }
 
 .bottomimage{
@@ -143,7 +142,7 @@ body{
     align-items: center;
     text-decoration: none;
     color:aliceblue;
-    box-shadow: 7px 7px 5px;
+    box-shadow:  5px 5px 7px;
 }
 
 .bottomimage1 img{
@@ -164,7 +163,7 @@ body{
     align-items: center;
     text-decoration: none;
     color:aliceblue;
-    box-shadow:  -7px 7px 5px;
+    box-shadow:  -5px 5px 7px;
 }
 
 .bottomimage2 img{
@@ -184,7 +183,7 @@ body{
     align-items: center;
     text-decoration: none;
     color:aliceblue;
-    box-shadow: 7px 7px 5px;
+    box-shadow:  -5px 5px 7px;
 }
 
 .bottomimage3 img{
@@ -204,10 +203,18 @@ body{
     align-items: center;
     text-decoration: none;
     color:aliceblue;
-    box-shadow:  -7px 7px 5px;
+    box-shadow:  -5px 5px 7px;
 }
 
 .bottomimage4 img{
     width: 40px;
     height: 40px;
 }
+
+@media
+    (min-width: 750px) and
+    (max-width: 1125px) and
+    (min-height: 1334px) and
+    (max-height: 2436px){
+    
+    }
