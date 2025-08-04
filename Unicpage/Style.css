@@ -21,7 +21,7 @@ body{
     background-position: center;
     display: flex;
     padding: 24vh;
-    margin-top: 28vh;
+    margin-top: 31vh;
     animation: pulse 2s infinite ease-in-out;
 }
 
@@ -210,11 +210,3 @@ body{
     width: 40px;
     height: 40px;
 }
-
-@media
-    (min-width: 750px) and
-    (max-width: 1125px) and
-    (min-height: 1334px) and
-    (max-height: 2436px){
-    
-    }
