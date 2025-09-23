@@ -22,21 +22,12 @@ body{
     display: flex;
     padding: 24vh;
     margin-top: 31vh;
-    animation: pulse 2s infinite ease-in-out;
-}
-
-@keyframes pulse{
-    0%{
-        transform: scale(1)
-    }
-    
-    50%{
-        transform: scale(1.1);
-    }
 }
 
 .container1{
     display:flex;
+    justify-content: center;
+    align-items: center;
     z-index: 3;
     text-align: center;
     margin-top: 10vh;
@@ -44,11 +35,16 @@ body{
     position: absolute;
     font-size: 60%;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color:blue;
-    text-shadow: 3px 3px 10px rgba(0,0,0,0.5);;
+    color:#1E3A8A;
+    text-shadow: 3px 3px 10px rgba(0,0,0,0.5);
+    background-color: rgba(255, 255, 255, 0.7);
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
 }
 
-.bottom{
+.button{
     display:flex;
     position: absolute;
     margin-top: 40vh;
@@ -60,7 +56,7 @@ body{
     font-size: 85%;
 }
 
-.bottom1{
+.button1{
     margin-left: 55px;
     margin-bottom: 15px;
     background-color: rgb(0, 136, 255);
@@ -71,10 +67,9 @@ body{
     height: 20px;
     text-decoration: none;
     color:aliceblue;
-    box-shadow: 5px 5px 7px;
 }
 
-.bottom2{
+.button2{
     margin-right: 55px;
     margin-bottom: 20px;
     background-color: rgb(0, 136, 255);
@@ -85,10 +80,9 @@ body{
     height: 20px;
     text-decoration: none;
     color:aliceblue;
-    box-shadow:   -5px 5px 7px;
 }
 
-.bottom3{
+.button3{
     margin-left: 55px;
     margin-bottom: 15px;
     background-color: rgb(0, 136, 255);
@@ -99,10 +93,9 @@ body{
     height: 20px;
     text-decoration: none;
     color:aliceblue;
-    box-shadow: 5px 5px 7px;
 }
 
-.bottom4{
+.button4{
     margin-right: 55px;
     margin-bottom: 20px;
     background-color: rgb(0, 136, 255);
@@ -113,10 +106,9 @@ body{
     height: 20px;
     text-decoration: none;
     color:aliceblue;
-    box-shadow:  -5px 5px 7px;
 }
 
-.bottomimage{
+.buttonimage{
     display:flex;
     position: fixed;
     text-align: center;
@@ -129,7 +121,7 @@ body{
     z-index: 2;
 }
 
-.bottomimage1{
+.buttonimage1{
     margin-right: 135px;
     margin-bottom: 10px;
     background-color: rgb(0, 136, 255);
@@ -142,16 +134,15 @@ body{
     align-items: center;
     text-decoration: none;
     color:aliceblue;
-    box-shadow:  5px 5px 7px;
 }
 
-.bottomimage1 img{
+.buttonimage1 img{
     width: 40px;
     height: 40px;
     color: green;
 }
 
-.bottomimage2{
+.buttonimage2{
     margin-left: 135px;
     margin-bottom: 10px;
     background-color: rgb(0, 136, 255);
@@ -163,15 +154,14 @@ body{
     align-items: center;
     text-decoration: none;
     color:aliceblue;
-    box-shadow:  -5px 5px 7px;
 }
 
-.bottomimage2 img{
+.buttonimage2 img{
     width: 40px;
     height: 40px;
 }
 
-.bottomimage3{
+.buttonimage3{
     margin-right: 135px;
     margin-bottom: 10px;
     background-color: rgb(0, 136, 255);
@@ -183,15 +173,14 @@ body{
     align-items: center;
     text-decoration: none;
     color:aliceblue;
-    box-shadow:  -5px 5px 7px;
 }
 
-.bottomimage3 img{
+.buttonimage3 img{
     width: 40px;
     height: 40px;
 }
 
-.bottomimage4{
+.buttonimage4{
     margin-left: 135px;
     margin-bottom: 10px;
     background-color: rgb(0, 136, 255);
@@ -203,10 +192,9 @@ body{
     align-items: center;
     text-decoration: none;
     color:aliceblue;
-    box-shadow:  -5px 5px 7px;
 }
 
-.bottomimage4 img{
+.buttonimage4 img{
     width: 40px;
     height: 40px;
 }
