@@ -1,200 +1,106 @@
-body{
-    background-image: url('images/fundoolho.png');
-    background-size: cover;/* Faz a imagem cobrir toda a tela */
-    background-repeat: no-repeat;/* Evita repetição da imagem */
-    background-position: center;/* Centraliza a imagem */
+body,html{
+    background-image:url(images/fundoolho.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     display: flex;
-    align-items: center;
     flex-direction: column;
-    height: 100vh;
-    width: 100vw;
-    margin: 0;
-    padding: 0;
-    z-index: 1;
-    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow:hidden;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.backgroundolho{
-    background-image: url('images/imageolho.png');
-    background-size: cover;
+h1{
+    font-size: 5vh;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    margin-top: 10vh;
+}
+
+.menu{
+    background-image: url(images/imageolho.png);
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    display: flex;
-    padding: 24vh;
-    margin-top: 31vh;
-}
-
-.container1{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 3;
-    text-align: center;
+    background-attachment: local;
+    width: 80vh;
+    height: 50vh;
     margin-top: 10vh;
-    flex-direction: column;
-    position: absolute;
-    font-size: 60%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color:#1E3A8A;
-    text-shadow: 3px 3px 10px rgba(0,0,0,0.5);
-    background-color: rgba(255, 255, 255, 0.7);
-    padding-right: 5px;
-    padding-left: 5px;
-    border-radius: 15px;
-    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
-}
-
-.button{
-    display:flex;
-    position: absolute;
-    margin-top: 40vh;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 85%;
-}
-
-.button1{
-    margin-left: 55px;
-    margin-bottom: 15px;
-    background-color: rgb(0, 136, 255);
-    border-radius: 25px;
-    padding-top: 10px;
-    padding-bottom: 5px;
-    width: 125px;
-    height: 20px;
-    text-decoration: none;
-    color:aliceblue;
-}
-
-.button2{
-    margin-right: 55px;
-    margin-bottom: 20px;
-    background-color: rgb(0, 136, 255);
-    border-radius: 25px;
-    padding-top: 10px;
-    padding-bottom: 5px;
-    width: 125px;
-    height: 20px;
-    text-decoration: none;
-    color:aliceblue;
-}
-
-.button3{
-    margin-left: 55px;
-    margin-bottom: 15px;
-    background-color: rgb(0, 136, 255);
-    border-radius: 25px;
-    padding-top: 10px;
-    padding-bottom: 5px;
-    width: 125px;
-    height: 20px;
-    text-decoration: none;
-    color:aliceblue;
-}
-
-.button4{
-    margin-right: 55px;
-    margin-bottom: 20px;
-    background-color: rgb(0, 136, 255);
-    border-radius: 25px;
-    padding-top: 10px;
-    padding-bottom: 5px;
-    width: 125px;
-    height: 20px;
-    text-decoration: none;
-    color:aliceblue;
-}
-
-.buttonimage{
-    display:flex;
-    position: fixed;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    display: flex;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 85%;
-    z-index: 2;
-}
-
-.buttonimage1{
-    margin-right: 135px;
-    margin-bottom: 10px;
-    background-color: rgb(0, 136, 255);
-    border-radius: 25px;
-    width: 40px;
-    height: 40px;
-    margin-top: 40vh;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    color:aliceblue;
-}
-
-.buttonimage1 img{
-    width: 40px;
-    height: 40px;
-    color: green;
-}
-
-.buttonimage2{
-    margin-left: 135px;
-    margin-bottom: 10px;
-    background-color: rgb(0, 136, 255);
-    border-radius: 25px;
-    width: 40px;
-    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2vh;
+}
+
+.menu-item img {
+  background-color: #0141a2;
+  width: 6vh;
+  height: 6vh;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px #000000;
+  margin-right: 2vh;
+}
+
+.menu-item img:hover {
+  background-color: white;
+  color: #000000;
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+.menu-item a {
+  background-color: #0141a2;
+  font-size: 3vh;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  text-decoration: none;
+  border-radius: 25px;
+  border: none;
+  box-shadow: 2px 2px 4px #000000;
+  padding: 0.5vh 1vh;
+}
+
+.menu-item a:hover {
+  background-color: white;
+  color: #000000;
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+footer{
+    background-color:#0141a2;
+    width: 100vh;
+    height: none;
+    margin-top: 11vh;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 2.2vh;
+    padding-top: 0.5px;
+    padding-bottom: 0.5px;
+}
+
+.links-sociais a{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
     text-decoration: none;
-    color:aliceblue;
 }
 
-.buttonimage2 img{
-    width: 40px;
-    height: 40px;
-}
-
-.buttonimage3{
-    margin-right: 135px;
-    margin-bottom: 10px;
-    background-color: rgb(0, 136, 255);
+.links-sociais a:hover {
+    background-color:#63C2F6;
+    color: #0141a2;
+    transform: scale(1.05);
+    transition: 0.3s;
     border-radius: 25px;
-    width: 40px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    color:aliceblue;
+    padding-left: 1vh;
+    padding-right: 1vh;
 }
 
-.buttonimage3 img{
-    width: 40px;
-    height: 40px;
-}
-
-.buttonimage4{
-    margin-left: 135px;
-    margin-bottom: 10px;
-    background-color: rgb(0, 136, 255);
-    border-radius: 25px;
-    width: 40px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    color:aliceblue;
-}
-
-.buttonimage4 img{
-    width: 40px;
-    height: 40px;
-}
