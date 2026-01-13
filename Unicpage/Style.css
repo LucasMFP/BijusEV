@@ -30,17 +30,17 @@ header {
 
 
 .menu{
-  width: 60%;
-  max-width: 500px;
-  height: 54vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 60%;
+  height: 54vh;
 }
 
 .menu-item {
   display: flex;
+  justify-content: center;
   align-items: center;
   margin-bottom: 1vh;
   margin-left: 105px;
