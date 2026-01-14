@@ -8,21 +8,28 @@ body,html{
   margin: 0;
 }
 
+body {
+  min-height: 100svh; /* viewport real do mobile */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 header {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 5vh auto 0; /* 🔹 isso centraliza */
-  width: 50%;
-  max-width: 500px;
-  height: 30vh;
+  margin: 4vh auto 0;
+  width: 100%;
+  max-width: 200px;
+  height: auto; /* 🔹 NÃO use vh aqui */
 }
 
 .logo {
   display: flex;
   width: 100%;
+  max-width: 140%;
   height: auto;
-  max-height: 100%;
   justify-content: center;
   align-items: center;
 }
@@ -32,7 +39,9 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 15vh auto 0;
+  margin: 4vh auto 0;
+  width: 100%;
+  max-width: 500px;
 }
 
 .menu-item {
@@ -90,4 +99,10 @@ footer a{
     color: white;
     text-decoration: none;
     font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  body {
+    overflow: hidden;
+  }
 }
