@@ -12,30 +12,27 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 5vh;
+  margin: 5vh auto 0; /* 🔹 isso centraliza */
   width: 50%;
   max-width: 500px;
-  height: 30vh; /* 🔹 antes era 54vh */
+  height: 30vh;
 }
 
 .logo {
   display: flex;
+  width: 100%;
+  height: auto;
+  max-height: 100%;
   justify-content: center;
   align-items: center;
-  max-width: 150px;
-  margin-top: 70px;
-  margin-left: 150px;
-  margin-bottom: 1px;
 }
 
 
 .menu{
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  width: 60%;
-  height: 54vh;
+  margin: 15vh auto 0;
 }
 
 .menu-item {
@@ -43,7 +40,7 @@ header {
   justify-content: center;
   align-items: center;
   margin-bottom: 1vh;
-  margin-left: 105px;
+  margin-left: 0; /* 🔹 ESSENCIAL */
 }
 
 .menu-item img {
@@ -82,7 +79,7 @@ header {
 }
 
 footer{
-    margin-top: 5vh;
+    margin-top: 150px;
     text-align: center;
     color: white;
     text-shadow: 2px 2px 4px #000000;
