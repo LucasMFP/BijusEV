@@ -1,51 +1,99 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="pt-BR">
 <head>
-     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="stylesheet" href="Unicpage/Style.css">
-     <title>BIJUS EV</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EV — Links</title>
+  <meta name="description" content="Links de contato: WhatsApp, Instagram e Trabalhos." />
+  <meta name="theme-color" content="#2f7fc0" />
+  <meta property="og:title" content="EV — Links" />
+  <meta property="og:description" content="WhatsApp, Instagram e Trabalhos em um só lugar." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./styles.css" />
 </head>
+<body>
+  <div class="sky" aria-hidden="true"><span></span><span></span></div>
 
-    <body>
+  <main class="card">
+    <!-- Monograma: metade olho grego, metade pulseira de miçangas com as letras E/V -->
+    <figure class="mono" aria-label="Monograma EV">
+      <svg viewBox="0 0 200 200" role="img" aria-hidden="true">
+        <defs><clipPath id="left"><rect x="0" y="0" width="100" height="200"/></clipPath></defs>
+        <g clip-path="url(#left)" class="eye">
+          <circle cx="100" cy="100" r="78" fill="#1c1a8f"/>
+          <circle cx="100" cy="100" r="56" fill="#f4f8fc"/>
+          <circle cx="100" cy="100" r="38" fill="#86c1ea"/>
+          <circle cx="100" cy="100" r="17" fill="#0d1230"/>
+        </g>
+        <circle cx="100" cy="100" r="78" fill="#3a87cf" clip-path="inset(0 0 0 50%)" style="clip-path: inset(0 0 0 50%)"/>
+        <g id="beads" class="beads"></g>
+        <!-- Letras desenhadas a partir da referência, sem substituição por fonte. -->
+        <g transform="translate(100 100) scale(1.1142857) translate(-290 -109)" aria-hidden="true">
+          <defs>
+            <linearGradient id="letter-ink" x1="296" y1="74" x2="345" y2="147" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#090c27"/>
+              <stop offset="1" stop-color="#302376"/>
+            </linearGradient>
+          </defs>
+          <path fill="url(#letter-ink)" d="M305 102H310.5L326.5 139.5L343.5 102H345L326 147Z"/>
+          <path fill="url(#letter-ink)" d="M296.5 74H318.5V75.2H301V94H316.5V95.3H301V116.4H318.5V117.7H296.5Z"/>
+        </g>
+        <line x1="100" y1="22" x2="100" y2="178" stroke="#0d1230" stroke-width="1" opacity=".25"/>
+      </svg>
+    </figure>
 
-        <header>
-            <div class="logo-container">
-                <img src="Unicpage/images/1.svg" alt="Logo Bijus EV" class="logo">
-            </div>
-        </header>
+    <h1 class="title">Por aqui, <em>sem rodeios.</em></h1>
+    <p class="sub">Escolha um caminho</p>
 
-        <section class="menu">
-            <nav>
-                <div class="menu-item">
-                <img src="Unicpage/images/whats.png" alt="Whatsapp" class="btn-img-whatsapp"> 
-                <a href="https://wa.link/x2hwxx" class="btn-whatsapp">Whatsapp</a>
-                </div>
+    <nav class="links" aria-label="Links principais">
+      <!-- EDITAR: link do WhatsApp. Ex.: https://wa.me/5511999999999 -->
+      <a class="link" href="#" data-name="WhatsApp" target="_blank" rel="noopener">
+        <span class="ico" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M12 3a9 9 0 0 0-7.8 13.5L3 21l4.6-1.2A9 9 0 1 0 12 3Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M9 8.2c.2-.4.5-.4.8-.4h.4c.2 0 .4 0 .5.4l.6 1.5c.1.3 0 .5-.1.6l-.5.6c.6 1.1 1.4 1.9 2.5 2.5l.6-.6c.2-.2.4-.2.6-.1l1.5.7c.3.1.4.3.4.5 0 .9-.7 1.8-1.7 1.8-2.8-.2-5.5-2.9-5.7-5.7 0-.6.1-1.2.1-1.8Z" fill="currentColor"/></svg>
+        </span>
+        <span class="txt">WhatsApp</span>
+        <span class="arrow" aria-hidden="true">&#8599;</span>
+      </a>
+      <!-- EDITAR: link do Instagram. Ex.: https://instagram.com/seu_usuario -->
+      <a class="link" href="#" data-name="Instagram" target="_blank" rel="noopener">
+        <span class="ico" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r=".9" fill="currentColor" stroke="none"/></svg>
+        </span>
+        <span class="txt">Instagram</span>
+        <span class="arrow" aria-hidden="true">&#8599;</span>
+      </a>
+      <!-- EDITAR: link dos Trabalhos (portfólio, catálogo, pasta etc.) -->
+      <a class="link" href="#" data-name="Trabalhos" target="_blank" rel="noopener">
+        <span class="ico" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="8.5" stroke-dasharray="1.6 2.4" stroke-linecap="round"/><path d="M12 16.5s-4-2.4-4-5.1A2.2 2.2 0 0 1 12 10a2.2 2.2 0 0 1 4 1.4c0 2.7-4 5.1-4 5.1Z" fill="currentColor" stroke="none"/></svg>
+        </span>
+        <span class="txt">Trabalhos</span>
+        <span class="arrow" aria-hidden="true">&#8599;</span>
+      </a>
+    </nav>
+  </main>
 
-                <div class="menu-item">
-                <img src="Unicpage/images/insta.png" alt="Instagram" class="btn-img-instagram"> 
-                <a href="https://www.instagram.com/bijus_ev?igsh=MTIzODEwZDR2dzRxcw==" class="btn-instagram">Instagram</a>
-                </div>
+  <footer class="credits">
+    <details class="company-details">
+    <summary class="company" title="Abrir ou fechar contatos da TechEvoUp">
+      <img src="./techevoup-logo.jpeg" alt="Logo da TechEvoUp" width="40" height="40" />
+      <span>Desenvolvido por <strong>TechEvoUp</strong></span>
+      <svg class="company-chevron" viewBox="0 0 16 16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5"><path d="m4 6 4 4 4-4"/></svg>
+    </summary>
+    <p class="row">
+      <!-- Contatos da TechEvoUp; os botões principais continuam com links em aberto. -->
+      <a href="https://wa.me/5583987697898" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp da TechEvoUp"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3a9 9 0 0 0-7.8 13.5L3 21l4.6-1.2A9 9 0 1 0 12 3Z"/><path d="M8 8c0 4 4 8 8 8l1-3-3-1-1 1-2-2 1-1-1-3Z"/></svg>WhatsApp</a>
+      <a href="https://www.instagram.com/techevoup/" target="_blank" rel="noopener noreferrer" aria-label="Instagram da TechEvoUp"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="5"/><circle cx="12" cy="12" r="3.6"/><circle cx="17" cy="7" r=".8" fill="currentColor" stroke="none"/></svg>Instagram</a>
+      <a href="mailto:techevoup@gmail.com"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 6 9 7 9-7"/></svg>E-mail</a>
+    </p>
+    </details>
+  </footer>
 
-                <div class="menu-item">
-                <img src="Unicpage/images/biju" alt="Lojinha" class="btn-img-lojinha">
-                <a href="#" class="btn-trabalhos" onclick="mostrarmensagem()">Trabalhos</a>
-                </div>
-            </nav>
-        </section>
-
-        <section class="legenda">
-            <footer>
-                <div class="links-sociais">
-                    <p>Desenvolvido por <strong>LucasMFP&reg;</strong><br>
-                    <a href="https://www.linkedin.com/in/lucas-mikael-85b129278/" class="linkedin">Linkedin</a>
-                    <a href="https://github.com/LucasMFP" class="github">GitHub</a>
-                    <a href="https://www.instagram.com/lucas.__fernandes/" class="instagram">Instagram</a></p>
-                </div>
-            </footer>
-        </section>
-
-        <script src="Unicpage/intertiv.js"></script>
-    </body>
+  <div class="toast" role="status" aria-live="polite"></div>
+  <script src="./script.js"></script>
+</body>
 </html>
